@@ -3,9 +3,27 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="readers">
-        <item>AbdulBaset</item>
-        <item>Sudais</item>
+        <item>Reader :AbdulBaset</item>
+        <item>Reader :Sudais</item>
 
-        <item>Shatri</item>
+        <item>Reader :Shatri</item>
+    </string-array>
+
+
+    <string-array name="translations">
+        <item>Translation :Dr. Mustafa Khattab, the Clear Quran</item>
+        <item>Translation :Fadel Soliman, Bridges’ translation</item>
+
+        <item>Translation :Saheeh International</item>
+        <item>Translation :Maarif-ul-Quran</item>
+    </string-array>
+
+
+    <string-array name="tafsirs">
+        <item>Tafsir :Arabic Qurtubi</item>
+        <item>Tafsir :Arabic Saddi</item>
+
+        <item>Tafsir :Arabic Tanweer</item>
+        <item>Tafsir :Arabic Waseet </item>
     </string-array>
 </resources>

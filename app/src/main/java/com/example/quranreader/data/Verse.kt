@@ -11,7 +11,8 @@ class Verse (
     var sajdah_number :Int,
     var page_number :Int,
     var audio:Audio,
-    var translations: List<Translations>
+    var translations: List<Translations>,
+    var tafsirs: List<Tafsirs>
         )
 
 

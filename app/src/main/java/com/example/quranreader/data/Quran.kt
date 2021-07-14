@@ -8,8 +8,8 @@ import androidx.room.PrimaryKey
 data class Quran(
         @PrimaryKey
         var id: Int ,
-         var idRacine: Int ,
-         var texteAR: String? ="" ,
+        var idRacine: Int ,
+        var texteAR: String? ="" ,
         var idWord: Int,
         var idAya:String? ="",
         var idSourat: Int,
@@ -17,6 +17,10 @@ data class Quran(
         var ArabicWord : String? ="",
         var texteAya: String? ="",
         var nbWord: Int,
+        var isfav:Int,
+        var isVisited:Int,
+        var notefav:String? ="",
+
 
 
 

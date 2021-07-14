@@ -16,8 +16,9 @@ object LoadData {
             nextLine= csvfilereader.readLine()
             while (nextLine!= null) {
                 val data = nextLine.split(',')
-                ayas.add(Quran(it,data[0].toInt(),data[1],data[2].toInt(),data[3],data[4].toInt(),data[5].toInt(),data[6],data[7],data[8].toInt()))
+                ayas.add(Quran(it,data[0].toInt(),data[1],data[2].toInt(),data[3],data[4].toInt(),data[5].toInt(),data[6],data[7],data[8].toInt(),0,0,))
                 nextLine= csvfilereader.readLine()
+
                 it++
             }
         } catch (e: Exception) {

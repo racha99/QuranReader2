@@ -4,6 +4,9 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
 
     <application
         android:name=".data.App"
@@ -13,7 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuranReader">
-        <activity android:name=".AyaDetailActivity"></activity>
+        <activity android:name=".ListRacineHistActivity"></activity>
+        <activity android:name=".PageActivity" />
+        <activity android:name=".ListAyahFavActivity" />
+        <activity android:name=".AyaFavDetailActivity" />
+        <activity android:name=".AyaDetailActivity" />
         <activity android:name=".ListeAyatOfRacine" />
         <activity android:name=".ListAyaActivity" />
         <activity android:name=".SwipePages" />

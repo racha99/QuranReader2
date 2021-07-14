@@ -14,4 +14,7 @@ interface EndPoints {
 
     @GET("by_key/{verse_key}?language=en?words=false")
     fun getTranslation(@Path("verse_key") verse_key:String?,@Query("translations") translations:String?): Call<Ayah>
+
+    @GET("by_key/{verse_key}?language=en?words=false")
+    fun getTafsir(@Path("verse_key") verse_key:String?,@Query("tafsirs") tafsir_key :String?): Call<Ayah>
 }
